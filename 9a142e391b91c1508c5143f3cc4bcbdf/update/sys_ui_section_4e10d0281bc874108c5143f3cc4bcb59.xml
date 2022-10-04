@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="4e10d0281bc874108c5143f3cc4bcb59" sys_domain="global" table="u_company_and_group_reference" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_company</element>
+            <position>0</position>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-06-14 18:02:15</sys_created_on>
+            <sys_id>b760609e1bc4111062e50ed2cd4bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_company_and_group_reference" sys_domain="global" view="Default view">4e10d0281bc874108c5143f3cc4bcb59</sys_ui_section>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-06-14 18:02:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_new_hire</element>
+            <position>1</position>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-06-14 18:02:15</sys_created_on>
+            <sys_id>7360609e1bc4111062e50ed2cd4bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_company_and_group_reference" sys_domain="global" view="Default view">4e10d0281bc874108c5143f3cc4bcb59</sys_ui_section>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-06-14 18:02:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_termination</element>
+            <position>2</position>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-06-14 18:02:15</sys_created_on>
+            <sys_id>f760609e1bc4111062e50ed2cd4bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_company_and_group_reference" sys_domain="global" view="Default view">4e10d0281bc874108c5143f3cc4bcb59</sys_ui_section>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-06-14 18:02:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_employee_update</element>
+            <position>3</position>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-06-14 18:02:15</sys_created_on>
+            <sys_id>7f60609e1bc4111062e50ed2cd4bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_company_and_group_reference" sys_domain="global" view="Default view">4e10d0281bc874108c5143f3cc4bcb59</sys_ui_section>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-06-14 18:02:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_specific_access_request</element>
+            <position>4</position>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-06-14 18:02:15</sys_created_on>
+            <sys_id>f360609e1bc4111062e50ed2cd4bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_company_and_group_reference" sys_domain="global" view="Default view">4e10d0281bc874108c5143f3cc4bcb59</sys_ui_section>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-06-14 18:02:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-06-14 18:02:15</sys_created_on>
+            <sys_id>7b60609e1bc4111062e50ed2cd4bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_company_and_group_reference" sys_domain="global" view="Default view">4e10d0281bc874108c5143f3cc4bcb59</sys_ui_section>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-06-14 18:02:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_group</element>
+            <position>6</position>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-06-14 18:02:15</sys_created_on>
+            <sys_id>ff60609e1bc4111062e50ed2cd4bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_company_and_group_reference" sys_domain="global" view="Default view">4e10d0281bc874108c5143f3cc4bcb59</sys_ui_section>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-06-14 18:02:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_new_hire_receive_all</element>
+            <position>7</position>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-06-14 18:02:15</sys_created_on>
+            <sys_id>7760609e1bc4111062e50ed2cd4bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_company_and_group_reference" sys_domain="global" view="Default view">4e10d0281bc874108c5143f3cc4bcb59</sys_ui_section>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-06-14 18:02:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_termination_receive_all</element>
+            <position>8</position>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-06-14 18:02:15</sys_created_on>
+            <sys_id>fb60609e1bc4111062e50ed2cd4bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_company_and_group_reference" sys_domain="global" view="Default view">4e10d0281bc874108c5143f3cc4bcb59</sys_ui_section>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-06-14 18:02:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_employee_update_receive_all</element>
+            <position>9</position>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-06-14 18:02:15</sys_created_on>
+            <sys_id>7360609e1bc4111062e50ed2cd4bcb4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_company_and_group_reference" sys_domain="global" view="Default view">4e10d0281bc874108c5143f3cc4bcb59</sys_ui_section>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-06-14 18:02:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_company_and_group_reference</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2021-05-07 13:59:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e10d0281bc874108c5143f3cc4bcb59</sys_id>
+            <sys_name>u_company_and_group_reference</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
+            <sys_update_name>sys_ui_section_4e10d0281bc874108c5143f3cc4bcb59</sys_update_name>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</claim_owner_scope>
+        <claim_timestamp>181630843f20000001</claim_timestamp>
+        <metadata_update_name>sys_ui_section_4e10d0281bc874108c5143f3cc4bcb59</metadata_update_name>
+        <previous_claim_app_version>1.0.7</previous_claim_app_version>
+        <previous_claim_name>Access Request</previous_claim_name>
+        <previous_claim_scope>9a142e391b91c1508c5143f3cc4bcbdf</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-06-14 16:24:55</sys_created_on>
+        <sys_id>352a8c921b84111062e50ed2cd4bcb07</sys_id>
+    </sys_claim>
+</record_update>

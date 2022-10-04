@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4b3cc4e01bc874108c5143f3cc4bcbb6" label="Company and Group Reference" max_length="40" name="u_company_and_group_reference" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Company" max_length="32" name="u_company" reference="core_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee Update" max_length="40" name="u_employee_update" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee Update Receive All" max_length="40" name="u_employee_update_receive_all" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Group" max_length="32" name="u_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="New hire" max_length="40" name="u_new_hire" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="New Hire Receive All" max_length="40" name="u_new_hire_receive_all" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Specific Access Request" max_length="32" name="u_specific_access_request" reference="sc_cat_item" reference_qual="category=c0cf05c81b3f701062e50ed2cd4bcbb5^EQ" reference_qual_condition="category=c0cf05c81b3f701062e50ed2cd4bcbb5^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Termination" max_length="40" name="u_termination" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Termination Receive All" max_length="40" name="u_termination_receive_all" type="boolean"/>
+        <index name="index">
+            <element name="u_specific_access_request"/>
+        </index>
+        <index name="index2">
+            <element name="u_company"/>
+        </index>
+        <index name="index3">
+            <element name="u_group"/>
+        </index>
+    </element>
+</database>

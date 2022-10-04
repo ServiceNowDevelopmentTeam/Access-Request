@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>u_company_and_group_reference</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-05-13 23:08:53</sys_created_on>
+        <sys_id>2477856a1b08f450346ffd951a4bcbdf</sys_id>
+        <sys_name>u_company_and_group_reference</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
+        <sys_update_name>ua_table_licensing_config_2477856a1b08f450346ffd951a4bcbdf</sys_update_name>
+    </ua_table_licensing_config>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</claim_owner_scope>
+        <claim_timestamp>181630a4ac60000001</claim_timestamp>
+        <metadata_update_name>ua_table_licensing_config_2477856a1b08f450346ffd951a4bcbdf</metadata_update_name>
+        <previous_claim_app_version>1.0.7</previous_claim_app_version>
+        <previous_claim_name>Access Request</previous_claim_name>
+        <previous_claim_scope>9a142e391b91c1508c5143f3cc4bcbdf</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-06-14 16:27:07</sys_created_on>
+        <sys_id>12aa48d21b84111062e50ed2cd4bcbb9</sys_id>
+    </sys_claim>
+</record_update>

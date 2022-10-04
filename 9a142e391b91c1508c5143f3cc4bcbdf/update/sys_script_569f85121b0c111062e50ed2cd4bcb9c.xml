@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sc_req_item</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Notify Company and Group References</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	try {
+		var inputs = {};
+		inputs['ritm_record'] = current; // GlideRecord of table: sc_req_item 
+
+		sn_fd.FlowAPI.getRunner().subflow('global.notify_company_and_group_reference').inBackground().withInputs(inputs).run();
+
+	} catch (ex) {
+		var message = ex.getMessage();
+		gs.error(message);
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-06-14 21:29:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>569f85121b0c111062e50ed2cd4bcb9c</sys_id>
+        <sys_name>Notify Company and Group References</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Access Request" source="9a142e391b91c1508c5143f3cc4bcbdf">9a142e391b91c1508c5143f3cc4bcbdf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
+        <sys_update_name>sys_script_569f85121b0c111062e50ed2cd4bcb9c</sys_update_name>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=569f85121b0c111062e50ed2cd4bcb9c"/>
+</record_update>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Access Request">4580d7a8db110010a81ff36f299619b3</cat_item>
+        <cat_variable>IO:437853601b76345062e50ed2cd4bcba6</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>redirect if needs to redirect</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+	var acc_req = g_form.getValue('access_name');
+
+	
+	//**************************************************************************************************************
+	// THIS IS REMOVED DUE TO ORDER GUIDE NOT BEING IN PROD BUT THIS NEEDS TO BE, BLAME IDK SOCIETY OR SOMETHING
+	//**************************************************************************************************************
+    //Type appropriate comment here, and begin script below
+    //ensure its not part of an order guide (not necessary but safety comes first so that if that bugs this doesnt break)
+    //if (g_form.getValue('order_guide') == 'false') {
+	
+	
+		//first check if theirs only one value
+		//onestrea,
+		if (acc_req.includes('cbabd9bc1bf47410e7004229bc4bcb42')) {
+		
+			top.window.onbeforeunload = null;
+			top.window.location = "https://apigroup.service-now.com/sp?id=sc_cat_item&sys_id=03fb2d1a1b7a451062e50ed2cd4bcb6a";
+		}
+		
+		
+		//ax
+		if (acc_req.includes('f2d55e3f1b9f1050e7004229bc4bcbb7')) {
+		
+			top.window.onbeforeunload = null;
+			top.window.location = "https://apigroup.service-now.com//sp?id=sc_cat_item&sys_id=4010858e1bbca410e7004229bc4bcb0a&view=sp";
+		}
+		
+		//dayforce
+		if (acc_req.includes('8dd97fde1bfe2410e7004229bc4bcb9c')) {
+			top.window.onbeforeunload = null;
+			top.window.location = "https://apigroup.service-now.com//sp?id=sc_cat_item&sys_id=52978ccf1ba03cd08c5143f3cc4bcba4&view=sp";
+		}
+		
+		//coins oa
+		if (acc_req.includes('d97cd8251bb530148c5143f3cc4bcb6c')) {
+			top.window.onbeforeunload = null;
+			top.window.location = "https://apigroup.service-now.com//sp?id=sc_cat_item&sys_id=094fc0b81bae38108c5143f3cc4bcb14&view=sp";
+		}
+		
+		//webapps
+		if (acc_req.includes('4a3bfcac1b679450e7004229bc4bcb42')) {
+			
+			/*full list : 
+				3D Fire Protection
+				APi International LLC
+				APi Systems Integrators
+				Arizona Verde Fire Protection, Inc.
+				Armor Fire Protection
+				Branson Security and Fire
+				Delta Fire Systems
+				Omlid & Swinney
+				Premier Fire & Security, Inc.
+				Security Fire Protection Company Inc
+				Signal One
+				Western States Fire Protection
+				Vipond
+				Jamar
+				UPI
+				LeJeune
+				Jomax
+				Api Construction
+				Tenet
+				API Group
+			*/
+			
+			//check company
+			var u_company = g_form.getValue('user_company');
+			var role_bool = false;
+			//3d fire protection
+			if(u_company == '7eb5dc9f1b021050f5a3635bbc4bcb56'){
+				role_bool = true;
+			}
+			//api international llc
+			else if(u_company == '810698531b421050f5a3635bbc4bcbf1'){
+				role_bool = true;
+			}
+			//APi Systems Integrator
+			else if(u_company == '16b59c9f1b021050f5a3635bbc4bcbb7'){
+				role_bool = true;
+			}
+			//Arizona Verde Fire Protection, Inc.
+			else if(u_company == '30c34bd1dbce34106be415ce3b96193b'){
+				role_bool = true;
+			}
+			//Armor Fire Protection
+			else if(u_company == '87b5dc9f1b021050f5a3635bbc4bcbec'){
+				role_bool = true;	
+			}
+			//Branson Security and Fire
+			else if(u_company == 'd0363d9f1b335c10e7004229bc4bcb23'){
+				role_bool = true;
+			}
+			//Delta Fire Systems
+			else if(u_company == 'dcb5d89f1b021050f5a3635bbc4bcb92'){
+				role_bool = true;	
+			}
+			//Omlid & Swinney
+			else if(u_company == 'd1d21dae1bda6490df31da49cc4bcb29'
+				   || u_company == '26cd97211b683c10346ffd951a4bcb90'){
+				role_bool = true;
+			}
+			//Premier Fire & Security, Inc.
+			else if(u_company == '3df085aa1b9a3050346ffd951a4bcb94'){
+				role_bool = true;	
+			}	
+			//Security Fire Protection Company Inc
+			else if(u_company == '81b55c9f1b021050f5a3635bbc4bcb05'){
+				role_bool = true;	
+			}
+			//Signal One
+			else if(u_company == '28b51c9f1b021050f5a3635bbc4bcb25'){
+				role_bool = true;	
+			}
+			//Western States Fire Protection
+			else if(u_company == '98b5d89f1b021050f5a3635bbc4bcb8d'){
+				role_bool = true;	
+			}
+			
+			//vipond - c0b5d89f1b021050f5a3635bbc4bcb67 / a8b51c9f1b021050f5a3635bbc4bcb33 (uk)
+			else if(u_company == 'c0b5d89f1b021050f5a3635bbc4bcb67' || u_company == 'a8b51c9f1b021050f5a3635bbc4bcb33'){
+				role_bool = true;
+			}
+			//jamar - 58b5d89f1b021050f5a3635bbc4bcbb4
+			else if(u_company == '58b5d89f1b021050f5a3635bbc4bcbb4'){
+				role_bool = true;
+			}
+			//upi - 1cb5d89f1b021050f5a3635bbc4bcbd2
+			else if(u_company == '1cb5d89f1b021050f5a3635bbc4bcbd2'){
+				role_bool = true;
+			}
+				
+			//lejune - 98b5d89f1b021050f5a3635bbc4bcbc5
+			else if(u_company == '98b5d89f1b021050f5a3635bbc4bcbc5'){
+				role_bool = true;
+			}
+					
+			//jomax - 24b51c9f1b021050f5a3635bbc4bcb0b
+			else if(u_company == '24b51c9f1b021050f5a3635bbc4bcb0b'){
+				role_bool = true;
+			}
+			
+			//api construction - 60b51c9f1b021050f5a3635bbc4bcb01
+			else if(u_company == '60b51c9f1b021050f5a3635bbc4bcb01'){
+				role_bool = true;
+			}
+			
+			//tenet - 2afd75fc1b70c9d0df31da49cc4bcbb3 
+			else if(u_company == '2afd75fc1b70c9d0df31da49cc4bcbb3' || u_company == 'dd1ff5741bf4411462e50ed2cd4bcb7c'){
+				role_bool = true;
+			}
+			//api group - 64b51c9f1b021050f5a3635bbc4bcb11
+			else if(u_company == '64b51c9f1b021050f5a3635bbc4bcb11'){
+				role_bool = true;
+			}
+			
+			
+			if(role_bool){
+				top.window.onbeforeunload = null;
+				top.window.location = "https://apigroup.service-now.com//sp?id=sc_cat_item&sys_id=dacc6cbd1b9c01508c5143f3cc4bcb88&view=sp";
+			}
+			else{
+				top.window.onbeforeunload = null;
+				top.window.location = "https://apigroup.service-now.com//sp?id=sc_cat_item&sys_id=6169d7e61b46e8108c5143f3cc4bcb6d&view=sp";
+			}
+		}
+
+		//astea
+		if (acc_req.includes('f0840b6a1b58b850e7004229bc4bcbd3')) {
+			
+			top.window.onbeforeunload = null;
+			top.window.location = "https://apigroup.service-now.com//sp?id=sc_cat_item&sys_id=8cb8e26a1b1478508c5143f3cc4bcb52&view=sp";
+		}
+    //}
+
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2021-11-19 19:48:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1f97feaf1bff785062e50ed2cd4bcb59</sys_id>
+        <sys_name>redirect if needs to redirect</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
+        <sys_update_name>catalog_script_client_1f97feaf1bff785062e50ed2cd4bcb59</sys_update_name>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</claim_owner_scope>
+        <claim_timestamp>17e9d91ae360000001</claim_timestamp>
+        <metadata_update_name>catalog_script_client_1f97feaf1bff785062e50ed2cd4bcb59</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Access Request</previous_claim_name>
+        <previous_claim_scope>9a142e391b91c1508c5143f3cc4bcbdf</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-01-27 22:04:37</sys_created_on>
+        <sys_id>ec8cee791bd1c1508c5143f3cc4bcb21</sys_id>
+    </sys_claim>
+</record_update>

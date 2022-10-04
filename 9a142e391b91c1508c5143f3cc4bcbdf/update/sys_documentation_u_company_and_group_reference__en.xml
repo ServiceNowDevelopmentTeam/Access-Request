@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Company and Group Reference" language="en" table="u_company_and_group_reference">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Company and Group Reference</label>
+            <language>en</language>
+            <name>u_company_and_group_reference</name>
+            <plural>Company and Group References</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2021-05-07 13:47:28</sys_created_on>
+            <sys_name>Company and Group Reference</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
+            <sys_update_name>sys_documentation_u_company_and_group_reference__en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</claim_owner_scope>
+        <claim_timestamp>181630a0de10000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_u_company_and_group_reference__en</metadata_update_name>
+        <previous_claim_app_version>1.0.7</previous_claim_app_version>
+        <previous_claim_name>Access Request</previous_claim_name>
+        <previous_claim_scope>9a142e391b91c1508c5143f3cc4bcbdf</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-06-14 16:26:52</sys_created_on>
+        <sys_id>d69a08d21b84111062e50ed2cd4bcbca</sys_id>
+    </sys_claim>
+</record_update>

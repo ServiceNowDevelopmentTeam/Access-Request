@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_employee_update" label="Employee Update" language="en" table="u_company_and_group_reference">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_employee_update</element>
+            <help/>
+            <hint/>
+            <label>Employee Update</label>
+            <language>en</language>
+            <name>u_company_and_group_reference</name>
+            <plural>Employee Updates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2021-05-07 13:50:34</sys_created_on>
+            <sys_name>Employee Update</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
+            <sys_update_name>sys_documentation_u_company_and_group_reference_u_employee_update_en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</claim_owner_scope>
+        <claim_timestamp>18163084d2e0000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_u_company_and_group_reference_u_employee_update_en</metadata_update_name>
+        <previous_claim_app_version>1.0.7</previous_claim_app_version>
+        <previous_claim_name>Access Request</previous_claim_name>
+        <previous_claim_scope>9a142e391b91c1508c5143f3cc4bcbdf</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-06-14 16:24:57</sys_created_on>
+        <sys_id>562a8c921b84111062e50ed2cd4bcba3</sys_id>
+    </sys_claim>
+</record_update>

@@ -38,7 +38,7 @@
         <label>approval</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="OLD Access Requests">31a9e3df1b2030148c5143f3cc4bcb7f</model>
+        <model display_value="Access Requests">31a9e3df1b2030148c5143f3cc4bcb7f</model>
         <model_id>31a9e3df1b2030148c5143f3cc4bcb7f</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_variable_31a9e3df1b2030148c5143f3cc4bcb7f</name>

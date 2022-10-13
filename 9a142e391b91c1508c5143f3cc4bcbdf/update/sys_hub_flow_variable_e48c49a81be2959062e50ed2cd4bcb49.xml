@@ -2,7 +2,7 @@
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2e6121ea-e365-4793-af4d-a75a4286e72e</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=a69e7153-6c82-4ba1-911b-029400e5d294</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -12,7 +12,7 @@
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
-        <choice_table/>
+        <choice_table>sc_cat_item</choice_table>
         <column_label/>
         <comments/>
         <create_roles/>
@@ -26,7 +26,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>task_created</element>
+        <element>transfer_item</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -34,20 +34,20 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>task created</label>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>transfer item</label>
         <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Access Requests">31a9e3df1b2030148c5143f3cc4bcb7f</model>
-        <model_id>31a9e3df1b2030148c5143f3cc4bcb7f</model_id>
+        <max_length>32</max_length>
+        <model display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</model>
+        <model_id>bc13e0521b08111062e50ed2cd4bcbcb</model_id>
         <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_variable_31a9e3df1b2030148c5143f3cc4bcb7f</name>
+        <name>var__m_sys_hub_flow_variable_bc13e0521b08111062e50ed2cd4bcbcb</name>
         <next_element/>
         <order>0</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="sc_cat_item">sc_cat_item</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -58,12 +58,12 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_flow_variable</sys_class_name>
         <sys_created_by>John.Schwab</sys_created_by>
-        <sys_created_on>2021-11-23 16:22:17</sys_created_on>
-        <sys_name>task created</sys_name>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_created_on>2022-10-11 17:22:25</sys_created_on>
+        <sys_name>transfer item</sys_name>
+        <sys_package display_value="Access Request" source="9a142e391b91c1508c5143f3cc4bcbdf">9a142e391b91c1508c5143f3cc4bcbdf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_80deae3c1b0c019062e50ed2cd4bcbc7</sys_update_name>
+        <sys_update_name>sys_hub_flow_variable_e48c49a81be2959062e50ed2cd4bcb49</sys_update_name>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

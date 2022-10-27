@@ -2,7 +2,7 @@
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=451f4e51-a7b8-4aa5-8103-6f4e03e5a096</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=fde09f4d-0b58-4708-9997-1e3ca8567b55</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -12,7 +12,7 @@
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
-        <choice_table>core_company</choice_table>
+        <choice_table/>
         <column_label/>
         <comments/>
         <create_roles/>
@@ -26,7 +26,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>company</element>
+        <element>notified_users</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -34,20 +34,20 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="Reference">reference</internal_type>
-        <label>Company</label>
+        <internal_type display_value="String">string</internal_type>
+        <label>Notified Users</label>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
-        <model display_value="Notify Company and Group Reference">65a409121bc8111062e50ed2cd4bcbe7</model>
-        <model_id>65a409121bc8111062e50ed2cd4bcbe7</model_id>
+        <max_length>8000</max_length>
+        <model display_value="Notify Company and Group Reference">8baf08991b62d1108c5143f3cc4bcb99</model>
+        <model_id>8baf08991b62d1108c5143f3cc4bcb99</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_variable_65a409121bc8111062e50ed2cd4bcbe7</name>
+        <name>var__m_sys_hub_flow_variable_8baf08991b62d1108c5143f3cc4bcb99</name>
         <next_element/>
         <order>0</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="core_company">core_company</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -58,12 +58,12 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_flow_variable</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-06-14 20:40:30</sys_created_on>
-        <sys_name>Company</sys_name>
+        <sys_created_on>2022-10-13 20:52:06</sys_created_on>
+        <sys_name>Notified Users</sys_name>
         <sys_package display_value="Access Request" source="9a142e391b91c1508c5143f3cc4bcbdf">9a142e391b91c1508c5143f3cc4bcbdf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_31a449121bc8111062e50ed2cd4bcb2c</sys_update_name>
+        <sys_update_name>sys_hub_flow_variable_63af48991b62d1108c5143f3cc4bcbb2</sys_update_name>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

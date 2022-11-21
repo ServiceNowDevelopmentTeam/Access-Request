@@ -57,6 +57,8 @@
         <sys_policy/>
         <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
         <sys_update_name>sys_dictionary_u_company_and_group_reference_u_termination_receive_all</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:50:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -79,5 +81,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-14 16:24:56</sys_created_on>
         <sys_id>4a2a8c921b84111062e50ed2cd4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:50:25</sys_updated_on>
     </sys_claim>
 </record_update>

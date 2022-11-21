@@ -13,11 +13,14 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2022-01-31 15:03:12</sys_created_on>
         <sys_id>f252798f1b59c9508c5143f3cc4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>52978ccf1ba03cd08c5143f3cc4bcba4</sys_name>
         <sys_package display_value="Access Request" source="9a142e391b91c1508c5143f3cc4bcbdf">9a142e391b91c1508c5143f3cc4bcbdf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
         <sys_update_name>sc_cat_item_guide_items_f252798f1b59c9508c5143f3cc4bcbbf</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:50:25</sys_updated_on>
         <use_sc_layout>true</use_sc_layout>
     </sc_cat_item_guide_items>
 </record_update>

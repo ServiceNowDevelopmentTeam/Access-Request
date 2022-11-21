@@ -65,11 +65,14 @@
         <sys_created_by>cdw_admin</sys_created_by>
         <sys_created_on>2019-11-20 18:45:22</sys_created_on>
         <sys_id>4580d7a8db110010a81ff36f299619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Access Request</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
         <sys_update_name>sc_cat_item_4580d7a8db110010a81ff36f299619b3</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:50:25</sys_updated_on>
         <taxonomy_topic display_value="Software &amp; Access">cba5b08a1b46011062e50ed2cd4bcb6e</taxonomy_topic>
         <template/>
         <template_manager_roles/>
@@ -161,6 +164,9 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-01-27 22:03:40</sys_created_on>
         <sys_id>264c2a791bd1c1508c5143f3cc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:50:25</sys_updated_on>
     </sys_claim>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</claim_owner_scope>
@@ -172,5 +178,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-01-27 22:03:40</sys_created_on>
         <sys_id>e64c2a791bd1c1508c5143f3cc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:50:25</sys_updated_on>
     </sys_claim>
 </record_update>

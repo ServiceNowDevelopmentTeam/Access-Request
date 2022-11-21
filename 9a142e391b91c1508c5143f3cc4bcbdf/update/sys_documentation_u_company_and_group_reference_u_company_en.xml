@@ -11,11 +11,14 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>Terry.Lillo</sys_created_by>
             <sys_created_on>2021-05-07 13:47:28</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
             <sys_name>Company</sys_name>
             <sys_package display_value="Global" source="global">global</sys_package>
             <sys_policy/>
             <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
             <sys_update_name>sys_documentation_u_company_and_group_reference_u_company_en</sys_update_name>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-10-04 19:50:25</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
@@ -30,5 +33,8 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-14 16:24:57</sys_created_on>
         <sys_id>522a8c921b84111062e50ed2cd4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:50:25</sys_updated_on>
     </sys_claim>
 </record_update>

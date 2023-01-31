@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
     <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
         <condition>IO:b8bec8c71bcd055062e50ed2cd4bcb0f=true^EQ</condition>
-        <guide display_value="Access Request Batch">f934f6161bb370508c5143f3cc4bcb06</guide>
+        <guide display_value="*DEPRECATED* Access Request Batch">f934f6161bb370508c5143f3cc4bcb06</guide>
         <ignore_mandatory_eval>false</ignore_mandatory_eval>
         <item display_value="Dayforce Access Request">52978ccf1ba03cd08c5143f3cc4bcba4</item>
         <order/>

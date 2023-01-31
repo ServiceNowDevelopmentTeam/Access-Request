@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
     <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
         <condition>IO:359e880b1bcd055062e50ed2cd4bcb21=true^EQ</condition>
-        <guide display_value="Access Request Batch">f934f6161bb370508c5143f3cc4bcb06</guide>
+        <guide display_value="*DEPRECATED* Access Request Batch">f934f6161bb370508c5143f3cc4bcb06</guide>
         <ignore_mandatory_eval>false</ignore_mandatory_eval>
-        <item display_value="Coins OA Access Request">094fc0b81bae38108c5143f3cc4bcb14</item>
+        <item display_value=" Coins OA Access Request">094fc0b81bae38108c5143f3cc4bcb14</item>
         <order/>
         <quantity>1</quantity>
         <requested_by/>

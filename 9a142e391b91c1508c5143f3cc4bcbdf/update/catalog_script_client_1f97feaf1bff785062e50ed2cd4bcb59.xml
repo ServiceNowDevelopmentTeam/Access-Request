@@ -17,6 +17,7 @@
         <messages/>
         <name>redirect if needs to redirect</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
     if (isLoading || newValue == '') {
         return;
@@ -33,12 +34,59 @@
 	
 	
 		//first check if theirs only one value
+
+		//ADP - 367094e31b1a05908c5143f3cc4bcb4d
+		if(acc_req.includes('367094e31b1a05908c5143f3cc4bcb4d')){
+			top.window.onbeforeunload = null;
+			top.window.location = "https://apigroup.service-now.com/sp?id=sc_cat_item&sys_id=d5015c401b8d0e10c16ddb9ebd4bcb1b&view=sp";
+			//https://apigroup.service-now.com/sp?id=sc_cat_item&table=sc_cat_item&sys_id=d5015c401b8d0e10c16ddb9ebd4bcb1b
+		}
+
+		//B2W -d5c972101b275450e7004229bc4bcbf4
+		if(acc_req.includes('d5c972101b275450e7004229bc4bcbf4')){
+			top.window.onbeforeunload = null;
+			top.window.location = "https://apigroup.service-now.com/sp?id=sc_cat_item&sys_id=a793a4281bf4469062e50ed2cd4bcbe2&view=sp";
+			//https://apigroup.service-now.com/sp?id=sc_cat_item&table=sc_cat_item&sys_id=a793a4281bf4469062e50ed2cd4bcbe2
+		}
+
+		//Explorer - d5c972101b275450e7004229bc4bcbf3
+		if(acc_req.includes('d5c972101b275450e7004229bc4bcbf3')){
+			top.window.onbeforeunload = null;
+			top.window.location = "https://apigroup.service-now.com/sp?id=sc_cat_item&sys_id=e55cd4201bf4469062e50ed2cd4bcbb7&view=sp";
+			//https://apigroup.service-now.com/sp?id=sc_cat_item&table=sc_cat_item&sys_id=e55cd4201bf4469062e50ed2cd4bcbb7
+		}
+		
+
+		//Procore - 750110271b1a05908c5143f3cc4bcb62 
+		if(acc_req.includes('750110271b1a05908c5143f3cc4bcb62')){
+			top.window.onbeforeunload = null;
+			top.window.location = "https://apigroup.service-now.com/sp?id=sc_cat_item&sys_id=dedc17bf1bb40e10c16ddb9ebd4bcb4e&view=sp";
+			//https://apigroup.service-now.com/sp?id=sc_cat_item&table=sc_cat_item&sys_id=dedc17bf1bb40e10c16ddb9ebd4bcb4e
+		}
+		
+
+		//Ultipro - da3bfcac1b679450e7004229bc4bcbb9
+		if(acc_req.includes('da3bfcac1b679450e7004229bc4bcbb9')){
+			top.window.onbeforeunload = null;
+			top.window.location = "https://apigroup.service-now.com/sp?id=sc_cat_item&sys_id=8814ff2f1bba7dd062e50ed2cd4bcb63&view=sp";
+			//https://apigroup.service-now.com/sp?id=sc_cat_item&table=sc_cat_item&sys_id=8814ff2f1bba7dd062e50ed2cd4bcb63
+		}
+
+		//Visual Lease - be21d4271b1a05908c5143f3cc4bcb15
+		if(acc_req.includes('be21d4271b1a05908c5143f3cc4bcb15')){
+			top.window.onbeforeunload = null;
+			top.window.location = "https://apigroup.service-now.com/sp?id=sc_cat_item&sys_id=4a4aac221bdd4a9062e50ed2cd4bcba0&view=sp";
+			//https://apigroup.service-now.com/sp?id=sc_cat_item&table=sc_cat_item&sys_id=4a4aac221bdd4a9062e50ed2cd4bcba0
+		}
+		
 	
 		//active directory priviliged
 		if(acc_req.includes('854e6c771b68b0148c5143f3cc4bcb3b')){
 			top.window.onbeforeunload = null;
 			top.window.location = "https://apigroup.service-now.com/sp?id=sc_cat_item&sys_id=20f9181c1b09f490e7004229bc4bcb22&view=sp";
 		}
+
+		
 	
 		//onestrea,
 		if (acc_req.includes('cbabd9bc1bf47410e7004229bc4bcb42')) {
@@ -210,7 +258,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1f97feaf1bff785062e50ed2cd4bcb59</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>redirect if needs to redirect</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global" source="global">global</sys_package>
@@ -218,10 +266,11 @@
         <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
         <sys_update_name>catalog_script_client_1f97feaf1bff785062e50ed2cd4bcb59</sys_update_name>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-04-11 20:03:06</sys_updated_on>
+        <sys_updated_on>2024-04-15 20:41:28</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
         <variable_set/>
         <view/>
     </catalog_script_client>

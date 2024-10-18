@@ -17,17 +17,21 @@
         <messages/>
         <name>set comnpany to current usors</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-   var reqFor = g_form.getReference('requestor', populateDeptDetails);
+
+    //Type appropriate comment here, and begin script below
+    var reqFor = g_form.getReference('requestor', populateDeptDetails);
 
     function populateDeptDetails(reqFor) {
-		if(reqFor.company != ''){
-			g_form.setValue('user_company', reqFor.company);
-		} else{
-			g_form.setValue('user_company', '');
-		}
-	}
+        if (!g_service_catalog.isOrderGuide()) {
+            if (reqFor.company != '') {
+                g_form.setValue('user_company', reqFor.company);
+            } else {
+                g_form.setValue('user_company', '');
+            }
+        }
+    }
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>John.Schwab</sys_created_by>
@@ -35,18 +39,19 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6bd7aca81b98d1908c5143f3cc4bcb12</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>set comnpany to current usors</sys_name>
         <sys_overrides/>
         <sys_package display_value="Access Request" source="9a142e391b91c1508c5143f3cc4bcbdf">9a142e391b91c1508c5143f3cc4bcbdf</sys_package>
         <sys_policy/>
         <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
         <sys_update_name>catalog_script_client_6bd7aca81b98d1908c5143f3cc4bcb12</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-10-04 19:50:25</sys_updated_on>
+        <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
+        <sys_updated_on>2024-06-04 05:40:43</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
         <variable_set/>
         <view/>
     </catalog_script_client>

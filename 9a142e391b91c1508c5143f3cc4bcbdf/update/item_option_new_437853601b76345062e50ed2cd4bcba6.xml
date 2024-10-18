@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item/>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field/>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <hidden>false</hidden>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table>cmdb_ci_service</list_table>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table>cmdb_ci_service</lookup_table>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value>u_access_provision_group</lookup_value>
+        <macro/>
+        <macroponent/>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>access_name</name>
+        <order>200</order>
+        <post_insert_script/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <published_ref/>
+        <question_text>Access Name</question_text>
+        <read_only>false</read_only>
+        <read_roles/>
+        <read_script/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference>cmdb_ci_service</reference>
+        <reference_qual>u_catalog_category=Access^ORu_catalog_category=Password Reset^u_catalog_item_active=true</reference_qual>
+        <reference_qual_condition table="cmdb_ci_service">u_catalog_category=Access^ORu_catalog_category=Password Reset^u_catalog_item_active=true^EQ<item display_value="Access" endquery="false" field="u_catalog_category" goto="false" newquery="false" operator="=" or="false" value="Access"/>
+            <item display_value="Password Reset" endquery="false" field="u_catalog_category" goto="false" newquery="false" operator="=" or="true" value="Password Reset"/>
+            <item endquery="false" field="u_catalog_item_active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <save_script/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2021-09-21 21:28:25</sys_created_on>
+        <sys_id>437853601b76345062e50ed2cd4bcba6</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Access Name</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
+        <sys_update_name>item_option_new_437853601b76345062e50ed2cd4bcba6</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-25 21:28:12</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>21</type>
+        <ui_page/>
+        <unique>false</unique>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set display_value="Access Service">98d79bac1b36345062e50ed2cd4bcb27</variable_set>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="delete_multiple" query="documentkey=437853601b76345062e50ed2cd4bcba6"/>
+    <fx_price action="delete_multiple" query="id=437853601b76345062e50ed2cd4bcba6"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>437853601b76345062e50ed2cd4bcba6</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2021-09-21 21:28:25</sys_created_on>
+        <sys_id>06b813601b76345062e50ed2cd4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2021-09-21 21:28:25</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>437853601b76345062e50ed2cd4bcba6</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2021-09-21 21:28:25</sys_created_on>
+        <sys_id>cab813601b76345062e50ed2cd4bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2021-09-21 21:28:25</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</claim_owner_scope>
+        <claim_timestamp>190514c98620000001</claim_timestamp>
+        <metadata_update_name>item_option_new_437853601b76345062e50ed2cd4bcba6</metadata_update_name>
+        <previous_claim_app_version>1.1.2</previous_claim_app_version>
+        <previous_claim_name>Access Request</previous_claim_name>
+        <previous_claim_scope>9a142e391b91c1508c5143f3cc4bcbdf</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-06-25 21:28:12</sys_created_on>
+        <sys_id>833b52811b038e1062e50ed2cd4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-25 21:28:12</sys_updated_on>
+    </sys_claim>
+</record_update>

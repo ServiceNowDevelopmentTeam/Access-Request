@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>access_service</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2021-09-21 21:25:15</sys_created_on>
+        <sys_id>98d79bac1b36345062e50ed2cd4bcb27</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Access Service</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
+        <sys_update_name>item_option_new_set_98d79bac1b36345062e50ed2cd4bcb27</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-11 15:29:13</sys_updated_on>
+        <title>Access Service</title>
+        <type>one_to_one</type>
+        <u_cdw_variables>false</u_cdw_variables>
+        <version>14</version>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</claim_owner_scope>
+        <claim_timestamp>190514c63a20000001</claim_timestamp>
+        <metadata_update_name>item_option_new_set_98d79bac1b36345062e50ed2cd4bcb27</metadata_update_name>
+        <previous_claim_app_version>1.1.2</previous_claim_app_version>
+        <previous_claim_name>Access Request</previous_claim_name>
+        <previous_claim_scope>9a142e391b91c1508c5143f3cc4bcbdf</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-06-25 21:27:59</sys_created_on>
+        <sys_id>332b1e411b038e1062e50ed2cd4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-06-25 21:27:59</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -3,7 +3,7 @@
         <condition>IO:7f11584b1bcd055062e50ed2cd4bcb1e=true^EQ</condition>
         <guide display_value="*DEPRECATED* Access Request Batch">f934f6161bb370508c5143f3cc4bcb06</guide>
         <ignore_mandatory_eval>false</ignore_mandatory_eval>
-        <item display_value=" WebApps Access Request">6169d7e61b46e8108c5143f3cc4bcb6d</item>
+        <item display_value="*Deprecated* WebApps Access Request">6169d7e61b46e8108c5143f3cc4bcb6d</item>
         <order/>
         <quantity>1</quantity>
         <requested_by/>

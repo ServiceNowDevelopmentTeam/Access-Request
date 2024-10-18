@@ -17,6 +17,8 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
@@ -45,7 +47,7 @@
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Approving Manager</question_text>
+        <question_text>Approving Supervisor</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -69,14 +71,14 @@
         <sys_created_by>bj.strohl</sys_created_by>
         <sys_created_on>2020-11-30 17:20:29</sys_created_on>
         <sys_id>c0c29fe51bf42810f5a3635bbc4bcba1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Approving Manager</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Approving Supervisor</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
         <sys_update_name>item_option_new_c0c29fe51bf42810f5a3635bbc4bcba1</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-10-04 19:50:25</sys_updated_on>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-06-05 16:41:41</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>

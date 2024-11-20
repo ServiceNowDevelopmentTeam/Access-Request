@@ -5,14 +5,19 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=61852417000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>modular_notifications__company_and_group_references</internal_name>
         <label_cache>[{"name":"22dd164d-b67a-49f1-af9d-564f539d18b7.Records","label":"23 - Look Up Records➛Group Records","reference":"sys_user_group","reference_display":"Group","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.catalog_item.sys_id","label":"Input➛Catalog Item➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_cat_item","column_name":"sys_id"},{"name":"flow_variable.company_and_group_reference_encoded_query","label":"Flow Variables➛Company and Group Reference Encoded Query","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2982d47c-707a-4f11-8072-2a1b2000b2b5"}},{"name":"subflow.company.sys_id","label":"Input➛Company➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"core_company","column_name":"sys_id"},{"name":"flow_variable.termination_catalog_item","label":"Flow Variables➛Termination Catalog Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"87b7c706-3650-4fb0-bec2-460af7054418"}},{"name":"flow_variable.employee_update_catalog_item","label":"Flow Variables➛Employee Update Catalog Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e1082117-84ca-4c10-a455-3c4d57d24402"}},{"name":"flow_variable.employee_update_catalog_item.sys_id","label":"Flow Variables➛Employee Update Catalog Item➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_cat_item","column_name":"sys_id"},{"name":"flow_variable.new_hire_catalog_item.sys_id","label":"Flow Variables➛New Hire Catalog Item➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_cat_item","column_name":"sys_id"},{"name":"flow_variable.termination_catalog_item.sys_id","label":"Flow Variables➛Termination Catalog Item➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_cat_item","column_name":"sys_id"},{"name":"b9c44188-edd8-44ae-a2a8-9e7c9d260a2b.item","label":"3 - For Each➛Catalog Item Record","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"a03bd66e-7a14-4361-8076-251148a1941e.Records","label":"2 - Look Up Records➛Catalog Item Records","reference":"sc_cat_item","reference_display":"Catalog Item","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"853121dd-d473-49c7-b427-28fe1ca2342e.Records","label":"19 - Look Up Records➛Group Records","reference":"sys_user_group","reference_display":"Group","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"66f89dbf-c901-4746-8aa7-76bcecf14c8b.item.u_group.sys_id","label":"18 - For Each➛Company and Group Reference Record➛Group➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user_group","column_name":"sys_id"},{"name":"0bec7021-c2f9-4ffb-84eb-2f7c5cafebf1.output_user_query","label":"20 - Dynamic Flow➛Group Query","reference_display":"Group Query","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a3a42382-9ded-44dc-ad80-622bb2f68d5b"}},{"name":"flow_variable.group_encoded_query","label":"Flow Variables➛Group Encoded Query","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c10ace62-71d3-4ed3-8e3b-64f1b117f234"}},{"name":"subflow.catalog_item","label":"Input➛Catalog Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6480c76e-8202-4ffb-9b6f-91e51e31b8f0","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"1e2ad757-b227-4cea-a6e5-456ed3e1beb4.Records","label":"17 - Look Up Records➛Company and Group Reference Records","reference":"u_company_and_group_reference","reference_display":"Company and Group Reference","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.new_hire_catalog_item","label":"Flow Variables➛New Hire Catalog Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"58a97f1f-cfc2-47fb-82f6-f67d767c03e6"}},{"name":"flow_variable.transfer_item","label":"Flow Variables➛transfer item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a69e7153-6c82-4ba1-911b-029400e5d294"}}]</label_cache>
         <master_snapshot>fea3b85a1b48111062e50ed2cd4bcb43</master_snapshot>
+        <master_snapshot_digest/>
         <name>Lookup Company and Group Reference</name>
         <natlang/>
         <outputs/>
@@ -24,6 +29,7 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-14 18:13:47</sys_created_on>
@@ -37,14 +43,14 @@
         <sys_policy/>
         <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
         <sys_update_name>sys_hub_flow_bc13e0521b08111062e50ed2cd4bcbcb</sys_update_name>
-        <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2024-10-18 13:58:59</sys_updated_on>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-09-07 11:35:09</sys_updated_on>
         <type>subflow</type>
+        <version>1</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=bc13e0521b08111062e50ed2cd4bcbcb"/>
     <sys_variable_value action="delete_multiple" query="document_key=bc13e0521b08111062e50ed2cd4bcbcb"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_bc13e0521b08111062e50ed2cd4bcbcb^id=bc13e0521b08111062e50ed2cd4bcbcb"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=bc13e0521b08111062e50ed2cd4bcbcb"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=bc13e0521b08111062e50ed2cd4bcbcb"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=bc13e0521b08111062e50ed2cd4bcbcb^sys_idNOT INf013e0521b08111062e50ed2cd4bcbcd"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -265,6 +271,7 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
+        <internal_link/>
         <internal_type display_value="Records">records</internal_type>
         <label>Groups</label>
         <mandatory>false</mandatory>
@@ -314,6 +321,7 @@
     </sys_hub_flow_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2aab099a1bc8111062e50ed2cd4bcbef"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=bc13e0521b08111062e50ed2cd4bcbcb"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=bc13e0521b08111062e50ed2cd4bcbcb"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=bc13e0521b08111062e50ed2cd4bcbcb^sys_idNOT IN49556c161b08111062e50ed2cd4bcb6e,638da4521b48111062e50ed2cd4bcb43,9b8da4521b48111062e50ed2cd4bcb20,f1a3785a1b48111062e50ed2cd4bcb26"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -324,16 +332,17 @@
         <comment>Look up termination reference records for company</comment>
         <display_text/>
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
+        <generation_source/>
         <order>17</order>
         <parent_ui_id>cfae94ae-3f89-4e14-a221-0361f65c7a41</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-14 18:23:39</sys_created_on>
         <sys_id>49556c161b08111062e50ed2cd4bcb6e</sys_id>
-        <sys_mod_count>130</sys_mod_count>
+        <sys_mod_count>131</sys_mod_count>
         <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-09-21 21:55:16</sys_updated_on>
+        <sys_updated_on>2024-10-21 14:09:40</sys_updated_on>
         <ui_id>1e2ad757-b227-4cea-a6e5-456ed3e1beb4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=49556c161b08111062e50ed2cd4bcb6e"/>
@@ -387,16 +396,17 @@
         <comment>Get group record</comment>
         <display_text/>
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
+        <generation_source/>
         <order>19</order>
         <parent_ui_id>66f89dbf-c901-4746-8aa7-76bcecf14c8b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-14 18:59:35</sys_created_on>
         <sys_id>638da4521b48111062e50ed2cd4bcb43</sys_id>
-        <sys_mod_count>126</sys_mod_count>
+        <sys_mod_count>127</sys_mod_count>
         <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-09-21 21:55:16</sys_updated_on>
+        <sys_updated_on>2024-10-21 14:09:40</sys_updated_on>
         <ui_id>853121dd-d473-49c7-b427-28fe1ca2342e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=638da4521b48111062e50ed2cd4bcb43"/>
@@ -450,16 +460,17 @@
         <comment>Look up term, new hire, employee update, and input catalog item</comment>
         <display_text/>
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-14 18:59:34</sys_created_on>
         <sys_id>9b8da4521b48111062e50ed2cd4bcb20</sys_id>
-        <sys_mod_count>126</sys_mod_count>
+        <sys_mod_count>127</sys_mod_count>
         <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-09-21 21:55:16</sys_updated_on>
+        <sys_updated_on>2024-10-21 14:09:40</sys_updated_on>
         <ui_id>a03bd66e-7a14-4361-8076-251148a1941e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9b8da4521b48111062e50ed2cd4bcb20"/>
@@ -513,16 +524,17 @@
         <comment>Look up group records with encoded query</comment>
         <display_text/>
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
+        <generation_source/>
         <order>23</order>
         <parent_ui_id>dc502789-9165-4280-865b-8bdce3ac3878</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-14 19:26:14</sys_created_on>
         <sys_id>f1a3785a1b48111062e50ed2cd4bcb26</sys_id>
-        <sys_mod_count>118</sys_mod_count>
+        <sys_mod_count>119</sys_mod_count>
         <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-09-21 21:55:16</sys_updated_on>
+        <sys_updated_on>2024-10-21 14:09:40</sys_updated_on>
         <ui_id>22dd164d-b67a-49f1-af9d-564f539d18b7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f1a3785a1b48111062e50ed2cd4bcb26"/>
@@ -567,7 +579,6 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f1a3785a1b48111062e50ed2cd4bcb26"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f1a3785a1b48111062e50ed2cd4bcb26"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=bc13e0521b08111062e50ed2cd4bcbcb"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=bc13e0521b08111062e50ed2cd4bcbcb^sys_idNOT IN01556c161b08111062e50ed2cd4bcb4a,138da4521b48111062e50ed2cd4bcb24,1f8da4521b48111062e50ed2cd4bcb06,22be20d21b48111062e50ed2cd4bcb31,279fa8161b48111062e50ed2cd4bcb13,2b8da4521b48111062e50ed2cd4bcb34,2c8434da1b48111062e50ed2cd4bcbfa,308c49a81be2959062e50ed2cd4bcba9,3e04749a1b48111062e50ed2cd4bcbc5,638da4521b48111062e50ed2cd4bcb3a,679fa8161b48111062e50ed2cd4bcb0f,6b8da4521b48111062e50ed2cd4bcb30,72be20d21b48111062e50ed2cd4bcb4d,7c8c49a81be2959062e50ed2cd4bcba1,7c8c49a81be2959062e50ed2cd4bcba5,a78da4521b48111062e50ed2cd4bcb45,aebe20d21b48111062e50ed2cd4bcb34,bda3785a1b48111062e50ed2cd4bcb28,f6be20d21b48111062e50ed2cd4bcb39,f78da4521b48111062e50ed2cd4bcb86,fabe20d21b48111062e50ed2cd4bcb3c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -581,6 +592,7 @@
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -656,6 +668,7 @@
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -706,6 +719,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>termination_catalog_item,new_hire_catalog_item,employee_update_catalog_item,group_encoded_query,company_and_group_reference_encoded_query,transfer_item</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>1</order>
@@ -858,6 +872,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>company_and_group_reference_encoded_query</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>6</order>
@@ -906,6 +921,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>company_and_group_reference_encoded_query</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>15</order>
@@ -953,6 +969,7 @@
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1028,6 +1045,7 @@
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>25</order>
@@ -1063,6 +1081,7 @@
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>14</order>
@@ -1098,6 +1117,7 @@
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1173,6 +1193,7 @@
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -1222,6 +1243,7 @@
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1297,6 +1319,7 @@
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1373,6 +1396,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>company_and_group_reference_encoded_query</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>10</order>
@@ -1420,6 +1444,7 @@
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1470,6 +1495,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>company_and_group_reference_encoded_query</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>13</order>
@@ -1518,6 +1544,7 @@
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Dynamic Flow">5ede711653223300414eddeeff7b1256</logic_definition>
         <order>20</order>
@@ -1787,6 +1814,7 @@
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1862,6 +1890,7 @@
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>24</order>
@@ -1924,6 +1953,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>company_and_group_reference_encoded_query</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>8</order>
@@ -1972,6 +2002,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>group_encoded_query</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>21</order>
@@ -2019,6 +2050,7 @@
         <flow display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -2082,6 +2114,7 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_bc13e0521b08111062e50ed2cd4bcbcb^id=fabe20d21b48111062e50ed2cd4bcb3c"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=fabe20d21b48111062e50ed2cd4bcb3c"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=fabe20d21b48111062e50ed2cd4bcb3c"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=bc13e0521b08111062e50ed2cd4bcbcb"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=bc13e0521b08111062e50ed2cd4bcbcb"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=bc13e0521b08111062e50ed2cd4bcbcb^sys_idNOT IN038d64521b48111062e50ed2cd4bcbb5,0f8d64521b48111062e50ed2cd4bcbbb,538d64521b48111062e50ed2cd4bcbd2,538d64521b48111062e50ed2cd4bcbfe,9b8d64521b48111062e50ed2cd4bcbdb,e48c49a81be2959062e50ed2cd4bcb49"/>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
@@ -2661,11 +2694,13 @@
         <active>true</active>
         <annotation/>
         <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>modular_notifications__company_and_group_references</internal_name>
         <label_cache>[{"name":"22dd164d-b67a-49f1-af9d-564f539d18b7.Records","label":"23 - Look Up Records➛Group Records","reference":"sys_user_group","reference_display":"Group","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.catalog_item.sys_id","label":"Input➛Catalog Item➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_cat_item","column_name":"sys_id"},{"name":"flow_variable.company_and_group_reference_encoded_query","label":"Flow Variables➛Company and Group Reference Encoded Query","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2982d47c-707a-4f11-8072-2a1b2000b2b5"}},{"name":"subflow.company.sys_id","label":"Input➛Company➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"core_company","column_name":"sys_id"},{"name":"flow_variable.termination_catalog_item","label":"Flow Variables➛Termination Catalog Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"87b7c706-3650-4fb0-bec2-460af7054418"}},{"name":"flow_variable.employee_update_catalog_item","label":"Flow Variables➛Employee Update Catalog Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e1082117-84ca-4c10-a455-3c4d57d24402"}},{"name":"flow_variable.employee_update_catalog_item.sys_id","label":"Flow Variables➛Employee Update Catalog Item➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_cat_item","column_name":"sys_id"},{"name":"flow_variable.new_hire_catalog_item.sys_id","label":"Flow Variables➛New Hire Catalog Item➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_cat_item","column_name":"sys_id"},{"name":"flow_variable.termination_catalog_item.sys_id","label":"Flow Variables➛Termination Catalog Item➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sc_cat_item","column_name":"sys_id"},{"name":"b9c44188-edd8-44ae-a2a8-9e7c9d260a2b.item","label":"3 - For Each➛Catalog Item Record","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"a03bd66e-7a14-4361-8076-251148a1941e.Records","label":"2 - Look Up Records➛Catalog Item Records","reference":"sc_cat_item","reference_display":"Catalog Item","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"853121dd-d473-49c7-b427-28fe1ca2342e.Records","label":"19 - Look Up Records➛Group Records","reference":"sys_user_group","reference_display":"Group","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"66f89dbf-c901-4746-8aa7-76bcecf14c8b.item.u_group.sys_id","label":"18 - For Each➛Company and Group Reference Record➛Group➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user_group","column_name":"sys_id"},{"name":"0bec7021-c2f9-4ffb-84eb-2f7c5cafebf1.output_user_query","label":"20 - Dynamic Flow➛Group Query","reference_display":"Group Query","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a3a42382-9ded-44dc-ad80-622bb2f68d5b"}},{"name":"flow_variable.group_encoded_query","label":"Flow Variables➛Group Encoded Query","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c10ace62-71d3-4ed3-8e3b-64f1b117f234"}},{"name":"subflow.catalog_item","label":"Input➛Catalog Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6480c76e-8202-4ffb-9b6f-91e51e31b8f0","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"1e2ad757-b227-4cea-a6e5-456ed3e1beb4.Records","label":"17 - Look Up Records➛Company and Group Reference Records","reference":"u_company_and_group_reference","reference_display":"Company and Group Reference","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.new_hire_catalog_item","label":"Flow Variables➛New Hire Catalog Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"58a97f1f-cfc2-47fb-82f6-f67d767c03e6"}},{"name":"flow_variable.transfer_item","label":"Flow Variables➛transfer item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a69e7153-6c82-4ba1-911b-029400e5d294"}}]</label_cache>
         <master>true</master>
@@ -2694,11 +2729,11 @@
         <sys_updated_by>james.benagh@glidefast.com</sys_updated_by>
         <sys_updated_on>2024-05-30 15:27:39</sys_updated_on>
         <type>subflow</type>
+        <version>1</version>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=fea3b85a1b48111062e50ed2cd4bcb43"/>
     <sys_variable_value action="delete_multiple" query="document_key=fea3b85a1b48111062e50ed2cd4bcb43"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_fea3b85a1b48111062e50ed2cd4bcb43^id=fea3b85a1b48111062e50ed2cd4bcb43"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=fea3b85a1b48111062e50ed2cd4bcb43"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=fea3b85a1b48111062e50ed2cd4bcb43"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=fea3b85a1b48111062e50ed2cd4bcb43^sys_idNOT INfea3b85a1b48111062e50ed2cd4bcb44"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -2919,6 +2954,7 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
+        <internal_link/>
         <internal_type display_value="Records">records</internal_type>
         <label>Groups</label>
         <mandatory>false</mandatory>
@@ -2968,6 +3004,7 @@
     </sys_hub_flow_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8dbb0d9a1bc8111062e50ed2cd4bcba2"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=fea3b85a1b48111062e50ed2cd4bcb43"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=fea3b85a1b48111062e50ed2cd4bcb43"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=fea3b85a1b48111062e50ed2cd4bcb43^sys_idNOT IN40b3f85a1b48111062e50ed2cd4bcb77,54b3f85a1b48111062e50ed2cd4bcb87,c0b3f85a1b48111062e50ed2cd4bcb7f,ccb3f85a1b48111062e50ed2cd4bcb6e"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -2978,6 +3015,7 @@
         <comment>Look up termination reference records for company</comment>
         <display_text/>
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
+        <generation_source/>
         <order>17</order>
         <parent_ui_id>cfae94ae-3f89-4e14-a221-0361f65c7a41</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3041,6 +3079,7 @@
         <comment>Look up group records with encoded query</comment>
         <display_text/>
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
+        <generation_source/>
         <order>23</order>
         <parent_ui_id>dc502789-9165-4280-865b-8bdce3ac3878</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3104,6 +3143,7 @@
         <comment>Get group record</comment>
         <display_text/>
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
+        <generation_source/>
         <order>19</order>
         <parent_ui_id>66f89dbf-c901-4746-8aa7-76bcecf14c8b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3167,6 +3207,7 @@
         <comment>Look up term, new hire, employee update, and input catalog item</comment>
         <display_text/>
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -3221,7 +3262,6 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ccb3f85a1b48111062e50ed2cd4bcb6e"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ccb3f85a1b48111062e50ed2cd4bcb6e"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=fea3b85a1b48111062e50ed2cd4bcb43"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=fea3b85a1b48111062e50ed2cd4bcb43^sys_idNOT IN038c0da81be2959062e50ed2cd4bcbf9,078c0da81be2959062e50ed2cd4bcbfc,23a3b85a1b48111062e50ed2cd4bcbef,2fa3b85a1b48111062e50ed2cd4bcbdb,2fa3b85a1b48111062e50ed2cd4bcbf2,33a3f85a1b48111062e50ed2cd4bcb18,3fa3f85a1b48111062e50ed2cd4bcb04,3fa3f85a1b48111062e50ed2cd4bcb1b,768c0da81be2959062e50ed2cd4bcbf5,7ba3f85a1b48111062e50ed2cd4bcb22,7fa3f85a1b48111062e50ed2cd4bcb1e,8114389a1b48111062e50ed2cd4bcbcb,a3a3b85a1b48111062e50ed2cd4bcbf7,afa3b85a1b48111062e50ed2cd4bcbfa,c4b3f85a1b48111062e50ed2cd4bcb60,c8b3f85a1b48111062e50ed2cd4bcb63,d5e4fcda1b48111062e50ed2cd4bcbd9,eba3f85a1b48111062e50ed2cd4bcb01,efa3b85a1b48111062e50ed2cd4bcbfd,fba3f85a1b48111062e50ed2cd4bcb25,ffa3f85a1b48111062e50ed2cd4bcb14"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -3236,6 +3276,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>company_and_group_reference_encoded_query</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>13</order>
@@ -3283,6 +3324,7 @@
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>14</order>
@@ -3318,6 +3360,7 @@
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -3368,6 +3411,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>termination_catalog_item,new_hire_catalog_item,employee_update_catalog_item,group_encoded_query,company_and_group_reference_encoded_query,transfer_item</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>1</order>
@@ -3519,6 +3563,7 @@
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -3594,6 +3639,7 @@
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -3669,6 +3715,7 @@
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -3745,6 +3792,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>company_and_group_reference_encoded_query</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>15</order>
@@ -3792,6 +3840,7 @@
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -3841,6 +3890,7 @@
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
@@ -3890,6 +3940,7 @@
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -3965,6 +4016,7 @@
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -4040,6 +4092,7 @@
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -4116,6 +4169,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>company_and_group_reference_encoded_query</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>6</order>
@@ -4164,6 +4218,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>group_encoded_query</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>21</order>
@@ -4211,6 +4266,7 @@
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>24</order>
@@ -4272,6 +4328,7 @@
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
         <order>25</order>
@@ -4308,6 +4365,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>company_and_group_reference_encoded_query</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>8</order>
@@ -4355,6 +4413,7 @@
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -4431,6 +4490,7 @@
         <flow display_value="Lookup Company and Group Reference">fea3b85a1b48111062e50ed2cd4bcb43</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Dynamic Flow">5ede711653223300414eddeeff7b1256</logic_definition>
         <order>20</order>
@@ -4701,6 +4761,7 @@
         <flow_variable/>
         <flow_variable/>
         <flow_variables_assigned>company_and_group_reference_encoded_query</flow_variables_assigned>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
         <order>10</order>
@@ -4736,6 +4797,7 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_fea3b85a1b48111062e50ed2cd4bcb43^id=ffa3f85a1b48111062e50ed2cd4bcb14"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ffa3f85a1b48111062e50ed2cd4bcb14"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ffa3f85a1b48111062e50ed2cd4bcb14"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=fea3b85a1b48111062e50ed2cd4bcb43"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=fea3b85a1b48111062e50ed2cd4bcb43"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=fea3b85a1b48111062e50ed2cd4bcb43^sys_idNOT IN13a3b85a1b48111062e50ed2cd4bcb94,13a3b85a1b48111062e50ed2cd4bcbb6,17a3b85a1b48111062e50ed2cd4bcbcb,aba3b85a1b48111062e50ed2cd4bcbd0,dfa3b85a1b48111062e50ed2cd4bcb8d,ea8c0da81be2959062e50ed2cd4bcb96"/>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
@@ -5312,14 +5374,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>bc13e0521b08111062e50ed2cd4bcbcb</sys_id>
         <latest_snapshot>fea3b85a1b48111062e50ed2cd4bcb43</latest_snapshot>
-        <compiler_build>glide-vancouver-07-06-2023__patch10-hotfix2-08-01-2024_08-12-2024_1557.zip</compiler_build>
+        <compiler_build>glide-xanadu-07-02-2024__patch2-09-25-2024_10-06-2024_2304.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=bc13e0521b08111062e50ed2cd4bcbcb"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=bc13e0521b08111062e50ed2cd4bcbcb^sys_idNOT IN38b33c5a1b48111062e50ed2cd4bcb1a"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"38b33c5a1b48111062e50ed2cd4bcb1a","name":"plan","plan_signature":null}}</plan>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"38b33c5a1b48111062e50ed2cd4bcb1a","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Lookup Company and Group Reference">bc13e0521b08111062e50ed2cd4bcbcb</plan_id>
-        <snapshot>555d6b5587b812106b4c21b9cebb3532</snapshot>
+        <snapshot>6172e847331192109b1810919e5c7ba6</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-14 19:26:26</sys_created_on>
         <sys_domain>global</sys_domain>

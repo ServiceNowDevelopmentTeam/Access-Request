@@ -5,6 +5,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
         <mandatory>true</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,6 +23,8 @@
         <sys_updated_on>2023-04-26 20:29:11</sys_updated_on>
         <table/>
         <ui_policy display_value="B2w and Mid ohio">7d171ccc1b2a6d508c5143f3cc4bcbf5</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
         <variable>b2w_role_mid</variable>
         <variable_set/>
         <visible>true</visible>

@@ -23,6 +23,7 @@
         <image/>
         <list_price>0</list_price>
         <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
         <mandatory_attachment>false</mandatory_attachment>
         <meta>access, role, security role, system access, erp, license</meta>
         <mobile_hide_price>false</mobile_hide_price>
@@ -39,6 +40,7 @@
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
         <no_quantity_v2>true</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
@@ -65,14 +67,14 @@
         <sys_created_by>cdw_admin</sys_created_by>
         <sys_created_on>2019-11-20 18:45:22</sys_created_on>
         <sys_id>4580d7a8db110010a81ff36f299619b3</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>Access Request</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
         <sys_update_name>sc_cat_item_4580d7a8db110010a81ff36f299619b3</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-11 15:29:23</sys_updated_on>
+        <sys_updated_on>2024-10-20 10:50:23</sys_updated_on>
         <taxonomy_topic display_value="Other Applications">f6c8fbcc1beaad508c5143f3cc4bcb4a</taxonomy_topic>
         <template/>
         <template_manager_roles/>
@@ -113,7 +115,7 @@
         <u_variables/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>21</version>
+        <version>24</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

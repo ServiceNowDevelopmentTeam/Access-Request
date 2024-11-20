@@ -6,15 +6,19 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Service Catalog">bf2f2fec73f70300b61e66476bf6a774</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>set_variables_based_on_new_requested_for</internal_name>
         <label_cache>[{"name":"{{action.user}}","label":"action➛user","type":"action","ref":""},{"name":"{{action.user_ref}}","label":"action➛user","type":"action","ref":""},{"name":"{{action.ritm_sys_id}}","label":"action➛ritm_sys_id","type":"action","ref":""},{"name":"{{action.ritm_reference}}","label":"action➛ritm reference","type":"action","ref":""}]</label_cache>
         <master_snapshot>2519de111b7bb8108c5143f3cc4bcb88</master_snapshot>
+        <master_snapshot_digest/>
         <name>Set variables based on new requested for</name>
         <natlang/>
         <outputs/>
@@ -33,8 +37,8 @@
         <sys_policy/>
         <sys_scope display_value="Access Request">9a142e391b91c1508c5143f3cc4bcbdf</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d9775a5d1b3bb8108c5143f3cc4bcb4b</sys_update_name>
-        <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2024-10-18 13:58:43</sys_updated_on>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-09-07 11:34:40</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -661,11 +665,14 @@
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Service Catalog">bf2f2fec73f70300b61e66476bf6a774</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>set_variables_based_on_new_requested_for</internal_name>
         <label_cache>[{"name":"{{action.user}}","label":"action➛user","type":"action","ref":""},{"name":"{{action.user_ref}}","label":"action➛user","type":"action","ref":""},{"name":"{{action.ritm_sys_id}}","label":"action➛ritm_sys_id","type":"action","ref":""},{"name":"{{action.ritm_reference}}","label":"action➛ritm reference","type":"action","ref":""}]</label_cache>
         <master>true</master>

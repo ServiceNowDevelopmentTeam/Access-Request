@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_specific_access_request" table="u_company_and_group_reference">
         <active>true</active>
         <array>false</array>
-        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
+        <attributes>encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation/>
         <choice/>

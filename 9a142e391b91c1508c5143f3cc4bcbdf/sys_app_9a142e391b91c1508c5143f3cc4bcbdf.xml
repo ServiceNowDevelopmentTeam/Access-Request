@@ -24,7 +24,7 @@
         <scoped_administration>false</scoped_administration>
         <short_description>JS - 49838 - Access request Add b2w roles</short_description>
         <source>9a142e391b91c1508c5143f3cc4bcbdf</source>
-        <store_correlation_id/>
+        <store_correlation_id>REPOAPP0001904747</store_correlation_id>
         <store_url/>
         <subscription_entitlement/>
         <sys_class_name>sys_app</sys_class_name>
@@ -32,15 +32,15 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-03-25 15:43:59</sys_created_on>
         <sys_id>9a142e391b91c1508c5143f3cc4bcbdf</sys_id>
-        <sys_mod_count>111</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-10-01 21:52:18</sys_updated_on>
+        <sys_mod_count>113</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-11-20 17:49:41</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor>API Group Inc</vendor>
         <vendor_prefix/>
-        <version>1.1.5</version>
+        <version>1.1.6</version>
     </sys_app>
 </record_update>
